@@ -48,61 +48,61 @@ GlobalSupplyChainRisk_Project/
 ## 🖼️ Screenshots & Visualisations
 
 ### 1. Disruption Class Distribution
-![Disruption Distribution](disruption_distribution.png)
+![Disruption Distribution]
 > Bar chart and pie chart showing the balance between disrupted (1) and non-disrupted (0) shipments across the full dataset.
 
 ---
 
 ### 2. Disruption Rate by Categorical Features
-![Categorical Disruption Rates](categorical_disruption_rates.png)
+![Categorical Disruption Rates]
 > Disruption rate breakdown across Origin Port, Destination Port, Transport Mode, Product Category, and Weather Condition.
 
 ---
 
 ### 3. Numerical Feature Distributions
-![Numerical Distributions](numerical_distributions.png)
+![Numerical Distributions]
 > Histogram + KDE overlays for Distance, Weight, Fuel Price Index, Geopolitical Risk Score, Carrier Reliability, and Lead Time — split by disruption class.
 
 ---
 
 ### 4. Correlation Heatmap
-![Correlation Heatmap](correlation_heatmap.png)
+![Correlation Heatmap]
 > Pairwise Pearson correlations between all numerical features and the target variable. Helps identify multicollinearity and key predictors.
 
 ---
 
 ### 5. Transport Mode vs Disruption
-![Transport Mode Disruption](transport_mode_disruption.png)
+![Transport Mode Disruption]
 > Stacked bar chart showing the percentage of disrupted vs non-disrupted shipments for each transport mode (Air, Rail, Road, Sea).
 
 ---
 
 ### 6. Monthly Disruption Trend
-![Monthly Disruption Trend](monthly_disruption_trend.png)
+![Monthly Disruption Trend]
 > Time-series line chart of monthly disruption rates from 2024 to 2026, highlighting seasonal peaks (Q3: July–September).
 
 ---
 
 ### 7. Model Performance Comparison
-![Model Comparison](model_comparison.png)
+![Model Comparison]
 > Grouped bar chart comparing Accuracy, Precision, Recall, F1-Score, and ROC-AUC across all five trained models.
 
 ---
 
 ### 8. ROC Curves — All Models
-![ROC Curves](roc_curves.png)
+![ROC Curves]
 > Receiver Operating Characteristic curves for all five models, with AUC scores. XGBoost achieves the highest AUC (~0.94).
 
 ---
 
 ### 9. Confusion Matrix — XGBoost
-![Confusion Matrix XGBoost](confusion_matrix_xgboost.png)
+![Confusion Matrix XGBoost]
 > Confusion matrix for the best model (XGBoost), showing True Positives, True Negatives, False Positives, and False Negatives on the test set.
 
 ---
 
 ### 10. Feature Importance — XGBoost
-![Feature Importance](feature_importance.png)
+![Feature Importance]
 > Top 15 most important features ranked by XGBoost gain-based importance. Carrier Reliability Score and Geopolitical Risk Score are the dominant predictors.
 
 ---
