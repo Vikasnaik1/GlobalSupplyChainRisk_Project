@@ -175,3 +175,133 @@ Project: Global Supply Chain Risk Prediction
 Dataset: `global_supply_chain_risk_2026.csv`
 
 ---
+# 🌍 Global Supply Chain Analytics Dashboard
+
+## 📊 Project Overview
+
+The **Global Supply Chain Analytics Dashboard** is an interactive Power BI project designed to analyze supply chain performance across revenue, shipments, delivery efficiency, shipment risk, product categories, and origin ports.
+
+The dashboard provides a consolidated view of key operational KPIs and enables users to explore performance using interactive filters such as weather condition, origin port, transport mode, product category, and date.
+
+---
+
+## 🎯 Project Objectives
+
+- Monitor overall shipment and revenue performance
+- Analyze on-time delivery performance
+- Identify shipment risk levels
+- Compare shipment performance across product categories
+- Analyze revenue contribution by product category
+- Examine origin-port performance
+- Track monthly shipment and delivery trends
+- Enable shipment-level analysis through interactive filtering
+
+---
+
+## 🖥️ Power BI Dashboard
+
+![Global Supply Chain Dashboard](image1.png)
+![Global Supply Chain Dashboard](image2.png)
+> **Note:** Replace `dashboard.png` with the exact name of your uploaded dashboard image.
+
+---
+
+## 🔑 Key KPIs
+
+| KPI | Value |
+|---|---:|
+| Total Revenue | 309K |
+| Total Shipments | 1K |
+| Risk Shipments | 782 |
+| On-Time Delivery | 39.0% |
+| Risk Shipment Rate | 61.0% |
+| Filtered Revenue | 67K |
+| Filtered Shipments | 283 |
+| Filtered On-Time Delivery | 62.9% |
+| Filtered Average Delivery Time | 13.1 days |
+
+---
+
+## 🔍 Key Insights
+
+- Overall on-time delivery performance is **39.0%**, while risk shipments represent **61.0%** of total shipments.
+- The overall dashboard records approximately **309K in total revenue** across **1K shipments**.
+- Under the **Clear Weather + Sea Transport** filter, the dashboard shows **67K revenue**, **283 shipments**, and **62.9% on-time delivery**.
+- Under the same filtered view, the average delivery time is **13.1 days**, with **105 risk shipments** representing **37.1%** of shipments.
+- Shipment volumes are relatively balanced across **Perishables, Textiles, Pharmaceuticals, Electronics, and Automotive** categories.
+- Category-level revenue is relatively evenly distributed, with visible category values concentrated around **60K–65K**.
+- Shipment-level records show substantial delivery-time variation, with visible examples ranging from **2.2 to 28.9 days**.
+
+---
+
+## 📈 Dashboard Analysis
+
+### 1. Shipment Performance
+Analyzed total shipments, risk shipments, and on-time delivery performance to provide an overview of supply chain operations.
+
+### 2. Revenue Analysis
+Compared revenue contribution across different product categories and origin ports.
+
+### 3. Delivery Performance
+Used monthly trend analysis and shipment-level data to examine on-time delivery and delivery-time variation.
+
+### 4. Product Category Analysis
+Compared shipment volumes and revenue across major product categories.
+
+### 5. Interactive Filtering
+The dashboard includes interactive slicers for:
+
+- Weather Condition
+- Origin Port
+- Transport Mode
+- Product Category
+- Date
+
+These filters allow users to perform focused analysis based on different business dimensions.
+
+---
+
+## 🛠️ Tools & Technologies
+
+- **Microsoft Power BI**
+- **DAX**
+- **Power Query**
+- **Data Modeling**
+- **Data Visualization**
+- **KPI Analysis**
+- **Supply Chain Analytics**
+- **Business Intelligence**
+
+---
+
+## 💡 Business Impact
+
+This dashboard provides a centralized view of supply chain performance and helps stakeholders monitor:
+
+- Shipment risk
+- On-time delivery
+- Average delivery time
+- Revenue performance
+- Product category performance
+- Origin-port performance
+- Monthly operational trends
+
+The analysis can support further investigation of delivery delays, shipment risks, and operational performance.
+
+---
+
+## 📌 Project Highlights
+
+**Domain:** Supply Chain Analytics  
+**Project Type:** Business Intelligence / Data Analytics  
+**Tool:** Power BI  
+**Focus Areas:** Shipment Analysis, Revenue Analysis, Delivery Performance, Risk Analysis, KPI Monitoring
+
+---
+
+
+---
+
+## 👨‍💻 Skills Demonstrated
+
+`Power BI` `DAX` `Power Query` `Data Modeling` `Data Visualization` `KPI Development` `Supply Chain Analytics` `Business Intelligence` `Data Analysis`
